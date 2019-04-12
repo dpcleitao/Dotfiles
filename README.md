@@ -10,7 +10,7 @@ First start by cloning this repo into your home directory.
 
 ```shell
 cd ~
-git clone https://github.com/jamesstonehill/Dotfiles.git
+git clone https://github.com/dpcleitao/Dotfiles.git
 ```
 
 Then copy or symlink the dotfiles you want to use.
@@ -30,15 +30,17 @@ cp ~/Dotfiles/pryrc ~/.pryrc
 # Recommended if you want to be able to `git pull` updates easily.
 ln -s ~/Dotfiles/zshrc ~/.zshrc
 ln -s ~/Dotfiles/vimrc ~/.vimrc
-ln -s ~/Dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Dotfiles/gitignore_global ~/.gitignore_global
 ln -s ~/Dotfiles/irbrc ~/.irbrc
 ln -s ~/Dotfiles/gemrc ~/.gemrc
 ln -s ~/Dotfiles/pryrc ~/.pryrc
+
+#Personally, I symlink everything other than my `.gitconfig` because you need to
+fill in your own email and name for that file. If you want to symlink that as well you can with the following command.
+ln -s ~/Dotfiles/gitconfig ~/.gitconfig
 ```
 
-Personally, I symlink everything other than my `.gitconfig` because you need to
-fill in your own email and name for that file.
+
 
 ### Installing Dependencies
 
