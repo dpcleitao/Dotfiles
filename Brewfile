@@ -12,8 +12,12 @@ brew "direnv"
 brew "nvm"
 brew "rbenv"
 
+# Go (for Netflix Jira Go Tool)
+brew "go"
+brew "go-jira"
 # Other Brew Things
 brew "gnupg"
+brew "exiftool"
 # Install Apps
 cask "1password"
 cask "alfred"
