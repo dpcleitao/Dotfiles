@@ -34,6 +34,7 @@ ln -s ~/Dotfiles/gitignore_global ~/.gitignore_global
 ln -s ~/Dotfiles/irbrc ~/.irbrc
 ln -s ~/Dotfiles/gemrc ~/.gemrc
 ln -s ~/Dotfiles/pryrc ~/.pryrc
+ln -s ~/Dotfiles/keyboard ~/.keyboard
 
 #Personally, I symlink everything other than my `.gitconfig` because you need to
 fill in your own email and name for that file. If you want to symlink that as well you can with the following command.
