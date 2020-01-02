@@ -1,14 +1,15 @@
 [user]
-	name = <YOUR NAME>
+	name = Dan Leitao
 	email = <YOUR EMAIL>
 [core]
 	autocrlf = false
 	safecrlf = true
 	excludesfile = ~/.gitignore_global
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
 [push]
 	default = current
 [pager]
