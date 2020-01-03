@@ -34,7 +34,9 @@ ln -s ~/Dotfiles/gitignore_global ~/.gitignore_global
 ln -s ~/Dotfiles/irbrc ~/.irbrc
 ln -s ~/Dotfiles/gemrc ~/.gemrc
 ln -s ~/Dotfiles/pryrc ~/.pryrc
-ln -s ~/Dotfiles/keyboard ~/.keyboard
+ln -s ~/Dotfiles/hammerspoon ~/.hammerspoon
+ln -s ~/Dotfiles/karabiner/karabiner.json ~/.config/karabiner
+
 
 #Personally, I symlink everything other than my `.gitconfig` because you need to
 fill in your own email and name for that file. If you want to symlink that as well you can with the following command.
@@ -44,6 +46,8 @@ ln -s ~/Dotfiles/gitconfig ~/.gitconfig
 
 
 ### Installing Dependencies
+
+Note: If this is a fresh install you will need to install Homebrew first.
 
 My dotfiles have a few dependencies. Most of these can be installed with
 [homebrew](https://brew.sh/).

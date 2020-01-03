@@ -46,6 +46,8 @@ cask "tableplus"
 cask "postman"
 cask "popsql"
 cask "dash"
+cask "iterm2"
+cask "flotato"
 cask "brave-browser"
 cask "numi"
 cask "hammerspoon"
@@ -60,7 +62,7 @@ mas "IA Writer", id: 775737590
 mas "ToothFairy", id: 1191449274
 mas "Affinity Designer", id: 824171161
 mas "Pixelmator", id: 407963104
-mas "Pixelmator Pro," id: 1289583905
+mas "Pixelmator Pro", id: 1289583905
 mas "LittleIpsum", id: 405772121
 mas "Color Picker", id: 641027709
 mas "Magnet", id: 441258766
